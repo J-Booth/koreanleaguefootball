@@ -1,0 +1,205 @@
+	/* Daegu Info Styles */
+	#daegu-tb{
+		background: #226fb3;
+	}
+
+	a.daegu-ti-link:link, :visited{
+		color:#226fb3;
+		font-style:italic;
+		text-decoration: underline;
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	a.daegu-ti-link:hover{
+		color: #fff !important;
+		background:#226fb3;
+	}
+
+	/* Gangwon Summary Styles */
+	#gangwon-tb{
+		background: #164f4a;		
+	}	
+
+	a.gangwon-ti-link:link, :visited{
+		color:#164f4a;
+		font-style:italic;
+		text-decoration: underline;
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	a.gangwon-ti-link:hover{
+		color: #b52b4a !important;
+		background:#fff;
+	}
+
+	/* Gyeongnam Summary Styles */
+	#Gyeongnam-tb{
+		background: #c7282c;		
+	}	
+
+	a.Gyeongnam-ti-link:link, :visited{
+		color:#c7282c;
+		font-style:italic;
+		text-decoration: underline;
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	a.Gyeongnam-ti-link:hover{
+		color: #b52b4a !important;
+		background:#fff;
+	}
+
+	/* Incheon Summary Styles */
+	#incheon-tb{	
+		background: #2a6fb2;
+	}
+
+	a.incheon-ti-link:link, :visited{
+		color:#2a6fb2;
+		font-style:italic;
+		text-decoration: underline;
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	a.incheon-ti-link:hover{
+		color: #b52b4a !important;
+		background:#fff;
+	}
+
+	/* Jeju Summary Styles */
+	#jeju-tb{
+		background: #f68026;	
+	}
+
+	a.jeju-ti-link:link, :visited{
+		color:#f68026;
+		font-style:italic;
+		text-decoration: underline;
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	a.jeju-ti-link:hover{
+		color: #b52b4a !important;
+		background:#fff;
+	}
+
+	/* Jeonbuk Summary Styles */
+	#jeonbuk-tb{
+		background: #0c713c;	
+	}
+
+	a.jeonbuk-ti-link:link, :visited{
+		color:#0c713c;
+		font-style:italic;
+		text-decoration: underline;
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	a.jeonbuk-ti-link:hover{
+		color: #b52b4a !important;
+		background:#fff;
+	}
+
+	/* Jeonnam Summary Styles */
+	#jeonnam-tb{
+		background: #7e2d8e;		
+	}
+
+	a.jeonnam-ti-link:link, :visited{
+		color:#7e2d8e;
+		font-style:italic;
+		text-decoration: underline;
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	a.jeonnam-ti-link:hover{
+		color: #b52b4a !important;
+		background:#fff;
+	}
+	
+	/* Pohang Summary Styles */
+	#pohang-tb{
+		background: #f9342e;		
+	}		
+
+	a.pohang-ti-link:link, :visited{
+		color:#f9342e;
+		font-style:italic;
+		text-decoration: underline;
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	a.pohang-ti-link:hover{
+		color: #b52b4a !important;
+		background:#fff;
+	}	
+	
+	/* Sangju Summary Styles */
+	#sangju-tb{
+		background: #eb1c31;		
+	}		
+
+	a.sangju-ti-link:link, :visited{
+		color:#eb1c31;
+		font-style:italic;
+		text-decoration: underline;
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	a.sangju-ti-link:hover{
+		color: #b52b4a !important;
+		background:#fff;
+	}
+
+	/* Seoul Summary Styles */
+	#seoul-tb{
+		background: #d60710;
+	}
+
+	a.seoul-ti-link:link, :visited{
+		color:#d60710;
+		font-style:italic;
+		text-decoration: underline;
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	a.seoul-ti-link:hover{
+		color: #b52b4a !important;
+		background:#fff;
+	}
+
+	/* Suwon Summary Styles */
+	#suwon-tb{	
+		background: #0359a7;	
+	}	
+
+	a.suwon-ti-link:link, :visited{
+		color:#0359a7;
+		font-style:italic;
+		text-decoration: underline;
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	a.suwon-ti-link:hover{
+		color: #b52b4a !important;
+		background:#fff;
+	}
+
+	/* Ulsan Summary Styles */
+	#ulsan-tb{
+		background: #1f4e90;	
+	}
+
+	a.ulsan-ti-link:link, :visited{
+		color:#224d8d;
+		font-style:italic;
+		text-decoration: underline;
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+	a.ulsan-ti-link:hover{
+		color: #b52b4a !important;
+		background:#fff;
+	}
+    
+    
