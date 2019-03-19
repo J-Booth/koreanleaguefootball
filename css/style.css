@@ -1,0 +1,1928 @@
+html{
+  max-height:100%;
+  overflow-y: scroll;
+}
+
+body {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Economica', Product Sans, Trebuchet MS, Open Sans, Saira Semi Condensed, Roboto, sans-serif;
+  line-height: 25px;
+  margin: 0 auto;
+  padding:0;	
+  text-align: left;	
+  height:100%;
+  background: #fff;
+  overflow: hidden;    
+}	
+
+a:link,a:visited,a:hover,a:active
+{
+  text-decoration:none;
+}
+
+h1{font-weight: 700;font-size:22px; margin:0;}
+h2{font-weight: 700;font-size:18px; margin:0;}
+h3{font-weight: 700;font-size:16px; margin:0;}
+h4{font-weight: 700;font-size:14px; margin:0;}
+
+/* Content Area */    
+main {
+  width:100%;
+  height:100%;
+  margin:0 auto;
+  line-height: 25px;       
+}
+
+/* Back to top button */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #1d242d;
+  color: #4f617b;
+  cursor: pointer;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#myBtn:hover {
+  color: #1d242d;
+  background-color: #4f617b;
+}
+
+/* Section */
+.section {
+  margin:2.5% auto;
+  width:100%;   
+}
+
+.section-alternate {
+  margin:0 auto;	
+  width:100%;		
+}
+
+/* Article */
+.article-header {
+  margin:0 auto;
+  padding-bottom:2.5%;
+}
+
+.article-header  h3{
+  text-align:left;
+  font-size:18px;
+  color:#1d242d;
+  text-transform:uppercase;  
+}
+
+.article-header-championship {
+  margin:0 auto;
+  padding-bottom:2.5%;    
+}
+
+.article-header-championship h3{
+  text-align:left;
+  font-size:18px;
+  text-transform:uppercase;	
+  color:#23CF5F;     
+}
+
+.article-header-relegation {
+  margin:0 auto;
+  padding-bottom:2.5%;    
+}
+
+.article-header-relegation h3{
+  text-align:left;
+  font-size:18px;
+  text-transform:uppercase;	
+  color:#eb2823;    
+}
+
+.article {
+  width:60%;
+  margin: 0 auto;
+  padding:5% 7.5%;
+  background:#fff;  
+}
+
+.article p{
+  margin:0 auto;
+  font-size:14px;
+  font-style:italic;
+  font-weight:400;
+  text-align:center;
+  padding-top:2.5%;
+}
+
+/* Fixtures and Results Banner */
+.FixturesResults-banner{
+  background: #4f617b; 
+  background-image: linear-gradient(0deg,rgba(22,22,22,0.8),rgba(22,22,22,0.8)),url("../images/misc/pexels-photo-159524.png");   
+
+    /* Set a specific height */
+    height: 500px;
+    margin-top: 36px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.FixturesResults-banner h1{
+  display: table;
+  margin: 0 auto;
+  padding:10px;
+  line-height: 40px;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);   
+  color:#fff;
+}
+
+/* Statistics Banner */
+.statistics-banner{
+  background-color: #4f617b;
+  background-image: linear-gradient(0deg,rgba(22,22,22,0.8),rgba(22,22,22,0.8)),url("../images/misc/pexels-photo-114296.jpeg");   
+
+    /* Set a specific height */
+    height: 500px;
+    margin-top: 36px;
+    
+    /* Create the parallax scrolling effect */ 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.statistics-banner h1{
+  display: table;
+  margin: 0 auto;
+  padding:10px;
+  line-height: 40px;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);   
+  color:#fff;
+}
+
+/* Team of the Round Banner */
+.TOTR-banner{
+  background: #fff; 
+  /*background-image: url("../images/misc/60-lines.png");*/  
+
+    /* Set a specific height */
+    height: 500px; 
+    margin-top: 36px;
+    
+    /* Create the parallax scrolling effect
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+*/ 
+}
+
+.TOTR-banner h1{
+  display: table;
+  margin: 0 auto;
+  padding:10px;
+  line-height: 40px;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);   
+  color:#4f617b;
+}
+
+/* Awards Banner */
+.awards-banner{
+  background: #fff; 
+  /*background-image: url("../images/misc/60-lines.png");*/ 
+
+    /* Set a specific height */
+    height: 500px;
+    margin-top: 36px;
+    
+    /* Create the parallax scrolling effect
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+*/ 
+}
+
+.awards-banner h1{
+  display: table;
+  margin: 0 auto;
+  padding:10px;
+  line-height: 40px;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);   
+  color:#1d242d;
+}
+
+/* Subheading */
+.subheading {
+  text-align: left;
+  padding: 2.5%;
+  margin:2.5% auto;
+  margin-bottom: -5%;
+  width:70%;  
+  background: #fff;
+}
+.subheading h2{
+  text-transform: uppercase; 
+  font-size:22px;
+  color: #000;
+}
+
+.subheading span {
+  display: inline-block;
+  position: relative;  
+}
+.subheading span:before,
+.subheading span:after {
+  content: "";
+  position: absolute;
+  height: 0px;
+  border-top: 1px solid #e3e3e3;
+  top: 0;
+  width: 1200px;
+}
+.subheading span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.subheading span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.subheading span:before, .subheading span:after {
+top: 13px;
+border-top: 1px solid #e3e3e3;   
+} 
+
+.subheading p{
+  margin:2.5% auto;
+  font-size:12px;
+  font-weight:400;
+  line-height:25px;
+  text-align:left;	
+}
+
+.subheading .CNRSplit {
+  color:#4f617b;
+  text-decoration:underline;    
+}
+
+.jumptarget::before {
+  content:"";
+  display:block;
+  height:103px; /* fixed header height*/
+  margin:-103px 0 0; /* negative fixed header height */
+}
+
+/* Select Season */
+.select-season{
+  width: 100%;
+  margin:0 auto;
+  padding: 5px;
+  top:65px;
+  text-align: right;
+  background: #4f617b;
+  position: fixed;
+  z-index: 998;
+  color: #fff;
+  text-transform: uppercase; 
+  font-weight: 700;
+}
+
+.select-season select{
+  padding: 5px;
+  margin:0;
+  margin-right: 20px;    
+  font-size:14px; 
+  font-weight: 700;
+  font-family: 'Economica';
+  color: #4f617b;
+  background: #1d242d;
+  border:none;
+}
+
+.select-season select:hover{
+  color:#fff;
+}
+
+.select-season option{
+  padding:10px;
+  font-size:14px;
+}
+
+/* Index */
+.index-banner{
+  background: #161616; 
+  background-image: linear-gradient(0deg,rgba(22,22,22,0.8),rgba(22,22,22,0.8)),url("../images/misc/iStock-534453446.jpg"); 
+
+    /* Set a specific height */
+    height: 100%;
+    margin-top: -65px;
+    
+    /*Create the parallax scrolling effect*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.index-banner h1{
+  display: table;
+  margin: 0 auto;
+  padding:10px;
+  line-height: 40px;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);   
+  color:#fff;
+}
+
+/* Fixtures and Results Pages */	
+table.results{
+  width:100%;
+  margin:0 auto;
+  border-collapse:collapse;
+}
+
+tr.results-table-head th {
+  font-weight: 700;
+  padding:10px 0;
+  margin:0;
+  color:#000;
+  text-align:center;
+  text-transform:uppercase;
+  background:#e3e3e3;
+}
+
+tr th.small-results-head {
+  padding:8px;
+  margin:0;
+  width:10%;
+  text-align:center;
+}
+
+tr.results-table-content td {
+  padding:10px 0;
+  margin:0;
+  width:20%;
+  text-align:center;
+  color:#000;	
+  border-bottom:1px solid #e3e3e3;
+}
+
+tr td.small-results-content {
+  padding:10px 0;
+  margin:0;
+  width:10%;
+  text-align:center;
+  color:#000;	
+  font-weight: 700;
+  background:url('../images/misc/results-bg.png') no-repeat center center; 
+    -webkit-background-size: 106px 45px;
+    -moz-background-size: 106px 45px;
+    -o-background-size: 106px 45px;
+    background-size: 106px 45px;	
+}
+
+th.results-badge{
+  width:10% !important;
+}
+
+td.results-badge{
+  width:10% !important;
+}
+
+.results-badge img{
+  display:inline-block;
+  height:25px;
+  vertical-align:middle;
+}
+
+#fixture{
+  color:#000;
+}
+
+#odd{
+}
+
+/* Team Pages */
+
+/* Daegu team banner */
+#daegu-tb, #daegu-stadium{
+  display: block;
+  background-image: linear-gradient(0deg,rgba(22,22,22,0.8),rgba(22,22,22,0.8)),url('../images/stadium_images/Daegu_Stadium.jpg');
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.daegu-ti-link:link,:visited{
+  color:#2371b5;
+}
+
+.daegu-ti-link:hover{
+  text-decoration: underline;
+}
+
+/* Gangwon team banner */
+#gangwon-tb, #gangwon-stadium{
+  display: block;
+  background-image: linear-gradient(0deg,rgba(22,22,22,0.8),rgba(22,22,22,0.8)), url('../images/stadium_images/iStock_000057382038_Large.jpg');
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.gangwon-ti-link:link,:visited{
+  color:#164f4a;
+}
+
+.gangwon-ti-link:hover{
+  text-decoration: underline;
+}
+
+/* Gyeongnam team banner */
+#gyeongnam-tb, #gyeongnam-stadium{
+  display: block;
+  background-image: linear-gradient(0deg,rgba(22,22,22,0.8),rgba(22,22,22,0.8)), url('../images/stadium_images/Gyeongnam_Stadium.jpg');
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.gyeongnam-ti-link:link,:visited{
+ color:#c6301e;
+}
+
+.gyeongnam-ti-link:hover{
+  text-decoration: underline;
+}
+
+
+/* Incheon team banner */
+#incheon-tb, #incheon-stadium{
+  display: block;
+  background-image: linear-gradient(0deg,rgba(22,22,22,0.8),rgba(22,22,22,0.8)), url('../images/stadium_images/Incheon_Stadium.jpg');
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.incheon-ti-link:link,:visited{
+  color:#2a6fb2;
+}
+
+.incheon-ti-link:hover{
+  text-decoration: underline;
+}
+
+/* Jeju team banner */
+#jeju-tb, #jeju-stadium{
+  display: block;
+  background-image: linear-gradient(0deg,rgba(22,22,22,0.8),rgba(22,22,22,0.8)), url('../images/stadium_images/iStock_000057382038_Large.jpg');
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.jeju-ti-link:link,:visited{
+  color:#f68026;
+}
+
+.jeju-ti-link:hover{
+  text-decoration: underline;
+}
+
+/* Jeonbuk team banner */
+#jeonbuk-tb, #jeonbuk-stadium{
+  display: block;
+  background-image: linear-gradient(0deg,rgba(22,22,22,0.8),rgba(22,22,22,0.8)), url('../images/stadium_images/Jeonbuk_Stadium.jpg');
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.jeonbuk-ti-link:link,:visited{
+  color:#0c713c;
+}
+
+.jeonbuk-ti-link:hover{
+  text-decoration: underline;
+}
+
+/* Jeonnam team banner */
+#jeonnam-tb, #jeonnam-stadium{
+  display: block;
+  background-image: linear-gradient(0deg,rgba(22,22,22,0.8),rgba(22,22,22,0.8)), url('../images/stadium_images/Jeonnam_Stadium.jpg');
+
+    /* Set a specific height */
+    height: 500px;
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    
+}
+
+.jeonnam-ti-link:link,:visited{
+  color:#7e2d8e;
+}
+
+.jeonnam-ti-link:hover{
+  text-decoration: underline;
+}
+
+/* Pohang team banner */
+#pohang-tb, #pohang-stadium{
+  display: block;
+  background-image: linear-gradient(0deg,rgba(22,22,22,0.8),rgba(22,22,22,0.8)), url('../images/stadium_images/Pohang_Stadium.jpg');
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    
+}
+
+.pohang-ti-link:link,:visited{
+  color:#f9342e;
+}
+
+.pohang-ti-link:hover{
+  text-decoration: underline;
+}
+
+/* Sangju team banner */
+#sangju-tb, #sangju-stadium{
+  display: block;
+  background-image: linear-gradient(0deg,rgba(22,22,22,0.8),rgba(22,22,22,0.8)), url('../images/stadium_images/Sangju_Stadium.jpg');
+
+    /* Set a specific height */
+    height: 500px;
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    
+}
+
+.sangju-ti-link:link,:visited{
+  color:#eb1c31;
+}
+
+.sangju-ti-link:hover{
+  text-decoration: underline;
+}
+
+/* Seoul team banner */
+#seoul-tb, #seoul-stadium{
+  display: block;
+  background-image: linear-gradient(0deg,rgba(22,22,22,0.8),rgba(22,22,22,0.8)), url('../images/stadium_images/Seoul_Stadium.jpg');
+
+    /* Set a specific height */
+    height: 500px;
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    
+}
+
+.seoul-ti-link:link,:visited{
+  color:#d60710;
+}
+
+.seoul-ti-link:hover{
+  text-decoration: underline;
+}
+
+/* Suwon team banner */
+#suwon-tb, #suwon-stadium{
+  display: block;
+  background-image: linear-gradient(0deg,rgba(22,22,22,0.8),rgba(22,22,22,0.8)), url('../images/stadium_images/Suwon_Stadium.jpg');
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+.suwon-ti-link:link,:visited{
+  color:#0359a7;
+}
+
+.suwon-ti-link:hover{
+  text-decoration: underline;
+}
+
+/* Ulsan team banner */
+#ulsan-tb, #ulsan-stadium{
+  display: block;
+  background-image: linear-gradient(0deg,rgba(22,22,22,0.8),rgba(22,22,22,0.8)), url('../images/stadium_images/Ulsan_Stadium.jpg');
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+   
+}
+
+.ulsan-ti-link:link,:visited{
+  color:#1f4e90;
+}
+
+.ulsan-ti-link:hover{
+  text-decoration: underline;
+}
+
+.team-banner h1{
+  display: table;
+  margin: 0 auto;
+  padding:10px;
+  line-height: 50px;
+  font-size: 50px;
+  color:#fff;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: -50%;
+  transform: translateY(-50%);          
+}
+
+.team-info-helper{
+  display: block;
+  float: left;
+  height: 100%;
+  width:50%;
+  margin: 0 auto;
+  vertical-align: middle;
+  line-height:15.5;
+  text-align:center;
+}
+
+img.team-info-badge{
+  height: 150px;
+  vertical-align:middle;
+  margin:0 auto;
+  -webkit-animation: fadeIn 2s;     
+}
+
+table.team-info {
+  margin: 0 auto;
+  border-collapse:collapse;
+}
+
+.team-info th{   
+  font-size:16px;
+  padding: 10px;
+  text-align: left; 
+}
+
+.team-info td {
+  padding:10px;
+  margin:0;
+  font-size:16px;
+  text-align:left;
+}
+
+.team-info-odd{
+  background:#fff;
+}
+
+/* Current Squad Banner */
+.CurrentSquad-banner{
+  background-image: linear-gradient(0deg,rgba(22,22,22,0.8),rgba(22,22,22,0.8)), url('../images/misc/iStock-493221463.jpg');
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.CurrentSquad-banner h1{
+  display: table;
+  margin: 0 auto;
+  padding:10px;
+  line-height: 40px;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);   
+  color:#fff;
+}
+
+.current-sqaud-subheader {
+  margin:0 auto;
+}
+
+.current-sqaud-subheader h2{
+  text-align: center;
+  font-size: 18px;    
+  color:#1d242d;
+  text-transform:uppercase;
+}
+
+img.flag{
+  height:20px;
+  border-radius:2px;
+}
+
+/* Achievements Banner */
+.achievements-banner{
+  background-image: linear-gradient(0deg,rgba(22,22,22,0.8),rgba(22,22,22,0.8)), url('../images/misc/iStock-627253912.jpg');
+
+    /* Set a specific height */
+    height: 500px; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;     
+}
+
+.achievements-banner h1{
+  display: table;
+  margin: 0 auto;
+  padding:10px;
+  line-height: 40px;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);   
+  color:#fff;
+}
+
+.achievements{
+  width:100%;
+  padding:0;
+  margin:0 auto;
+  border-collapse:collapse;
+}
+
+.achievements th {
+  margin:0;
+  padding: 10px 0;
+  color:#4f617b;
+  font-weight:700;
+  font-size: 14px;
+  text-align:left;
+}
+
+.achievements td {
+  text-align:center;
+  padding:10px 0;
+  width:10%;
+}
+
+/* Statistics Pages  */	
+#classic-standings-mobile {
+  display:none;
+}
+
+#classic-standings-championship-mobile {
+  display:none;
+}
+
+#classic-standings-relegation-mobile {
+  display:none;
+}
+
+.text-left{
+  text-align:left !important;
+}
+
+/* Classic Standings */
+#classic-standings {
+  margin:0 auto;
+  width:100%;
+  border-collapse:collapse;	
+}
+
+#classic-standings tr{
+}
+
+#classic-standings  th {
+  font-weight:700;	
+  text-align:center;
+  text-transform:uppercase;	
+  color:#000;
+  padding:10px 0;
+}
+
+#classic-standings td {
+  text-align:center;
+  padding:10px 0;
+  width:20px;
+}
+
+#classic-standings tr.odd{
+  background:#e3e3e3;
+}
+
+#classic-standings td.position{
+}
+
+#classic-standings tr.stats-team-hover:hover td{
+  color:#fff;
+  background:#4f617b;
+}
+
+/* Classic Standings Championship */
+#classic-standings-championship {
+  margin:0 auto;
+  width:100%;
+  border-collapse:collapse;
+}
+
+#classic-standings-championship  th {
+  text-align:center;
+  font-weight:700;	
+  text-transform:uppercase;	
+  color:#000;	
+  padding:10px 0;		
+}
+
+#classic-standings-championship td {
+  text-align:center;
+  padding:10px 0;
+  width:20px;		
+}
+
+#classic-standings-championship td.position {
+}
+
+#classic-standings-championship tr.odd{
+  background:#e3e3e3;	
+}
+
+#classic-standings-championship tr.stats-team-hover:hover td{
+  color:#fff;
+  background:#1fb955;
+}
+
+/* Classic Standings Relegation */
+#classic-standings-relegation {
+  margin:0 auto;
+  width:100%;
+  border-collapse:collapse;	
+}
+
+#classic-standings-relegation  th {
+  text-align:center;
+  font-weight:700;
+  text-transform:uppercase;	
+  color:#000;	
+  padding:10px 0;		
+}
+
+#classic-standings-relegation td {
+  text-align:center;
+  padding:10px 0;
+  width:20px;	
+}
+
+#classic-standings-relegation td.position {
+}
+
+#classic-standings-relegation tr.odd{
+  background:#e3e3e3;	
+}
+
+#classic-standings-relegation tr.stats-team-hover:hover td{
+  color:#fff;
+  background:#e01914;
+}
+
+/* Player Statistics Banner */
+.PlayerStatistics-banner{
+  background:#4f617b;
+  background-image: linear-gradient(0deg,rgba(22,22,22,0.8),rgba(22,22,22,0.8)),url("../images/misc/iStock-491207537.jpg");       
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.PlayerStatistics-banner h1{
+  display: table;
+  margin: 0 auto;
+  padding:10px;
+  line-height: 40px;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);   
+  color:#fff;
+}
+
+/* Classic Scorers */
+#classic-scorers-mobile {
+  display:none;
+}
+
+#classic-scorers
+{
+  margin:0 auto;
+  padding:0; 
+  width:100%;
+  border-collapse:collapse;	
+}
+
+#classic-scorers  th{
+  text-align:center;
+  color:#000;
+  text-transform:uppercase;	
+  font-weight:700;
+  padding:10px 0;
+}
+
+#classic-scorers td {
+  padding:10px 0;
+  width:100px;
+}
+
+#classic-scorers td.position {
+  text-align:center;
+  width:20px;
+}
+
+#classic-scorers td.points {
+  text-align:center;
+  width:20px;
+}
+
+#classic-scorers tr.odd{
+  background:#e3e3e3;	
+}
+
+#classic-scorers tr.stats-team-hover:hover td{
+  color:#fff;
+  background:#4f617b;
+}
+
+/* Classic Assists */
+#classic-assists-mobile {
+  display:none;
+}
+
+#classic-assists{
+  margin:0 auto;
+  padding:0;
+  width:100%;
+  border-collapse:collapse;		
+}
+
+#classic-assists  th{
+  text-align:center;
+  color:#000;
+  text-transform:uppercase;	
+  font-weight:700;
+  padding:10px 0;			
+}
+
+#classic-assists td {
+  padding:10px 0;
+  width:100px;
+}
+
+#classic-assists td.position {
+  text-align:center;
+  width:20px;
+}
+
+#classic-assists td.points {
+  text-align:center;
+  width:20px;
+}
+
+#classic-assists tr.odd{
+  background:#e3e3e3;	
+}
+
+#classic-assists tr.stats-team-hover:hover td{
+  color:#fff;
+  background:#4f617b;
+}
+
+td.position {
+  width:75px;
+}
+
+.champions {
+  color:#23CF5F !important;
+}
+
+.relegated {
+  color:#eb2823 !important;
+}
+
+.playoff {
+  color:#ffa400 !important;
+}
+
+p.stats-text
+{
+  text-align:center;
+  font-style:italic;
+  font-weight: 700;
+}
+
+/* Team of the Round */
+.totr-p{
+  margin:0 auto;
+  font-size:12px;
+  font-weight:400;
+  text-align:center;
+  padding-top:2.5%;
+}
+
+
+.grid {
+  padding: 20px 20px 100px 20px;
+  max-width: 1300px;
+  margin: 2.5% auto;
+  list-style: none;
+  text-align: center;
+}
+
+.grid li {
+  display: inline-block;
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+  position: relative;
+}
+
+.grid figure {
+  margin: 0;
+  position: relative;
+}
+
+.grid figure img {
+  max-width: 100%; 
+  display:block; 
+  height: 350px;
+  position: relative;
+  margin:0;
+}
+
+.grid figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding:0px;
+  background:#2f2f2f;
+  color: #a1a1a1;
+  text-align:center;
+}
+
+.grid figcaption h3 {
+  margin: 0;
+  padding: 10px;
+  color: #4f617b;
+  background:#000;
+}
+
+.grid figcaption span:before {
+  content: '';
+}
+
+.grid figcaption a {
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.cs-style-3 figure {
+  overflow: hidden;
+}
+
+.cs-style-3 figure img {
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  transition: transform 0.4s;
+}
+
+.no-touch .cs-style-3 figure:hover img,
+.cs-style-3 figure.cs-hover img {
+  -webkit-transform: translateY(-30px);
+  -moz-transform: translateY(-30px);
+  -ms-transform: translateY(-30px);
+  transform: translateY(-30px);
+}
+
+.cs-style-3 figcaption {
+  width: 100%;
+  top: auto;
+  bottom: 0;
+  opacity: 0;
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+  -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+  transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.no-touch .cs-style-3 figure:hover figcaption,
+.cs-style-3 figure.cs-hover figcaption {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+  -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+  transition: transform 0.4s, opacity 0.1s;
+}
+
+.cs-style-3 figcaption a {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+/* Season Awards */
+.best-xi{
+  max-width: 100%; 
+  display:block; 
+  height: 500px;
+  margin:0 auto;    
+}
+
+/* Footer */
+footer{
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 2%;
+  overflow:hidden;
+  background:#000;
+}
+
+footer p{
+  margin:0;
+  color:#a1a1a1;
+  font-size:12px;
+}
+
+/* Media Queries */ 
+@media only screen and (max-width : 1024px) {   
+    
+/* Banners */     
+.index-banner h1{
+  font-size: 40px;
+  line-height: 40px;
+}    
+    
+.FixturesResults-banner{
+  height: 400px;   
+}
+    
+.FixturesResults-banner h1{
+font-size:40px;
+line-height: 40px;
+}     
+
+.statistics-banner{
+  height: 400px;   
+} 
+    
+.statistics-banner h1{
+font-size:40px;
+line-height: 40px;
+}     
+
+.TOTR-banner{
+  height: 400px;   
+}
+    
+.TOTR-banner h1{
+font-size:40px;
+line-height: 40px;
+}    
+    
+.awards-banner{
+  height: 400px;
+}
+    
+.awards-banner h1{
+  font-size: 40px;
+  line-height: 40px;
+}      
+    
+/* Team Banners */    
+#daegu-tb, #daegu-stadium{
+  height: 400px;          
+}
+#gangwon-tb, #gangwon-stadium{
+  height: 400px;          
+}
+#gyeongnam-tb, #gyeongnam-stadium{
+  height: 400px;          
+}
+#incheon-tb, #incheon-stadium{
+  height: 400px;          
+}    
+#jeju-tb, #jeju-stadium{
+  height: 400px;          
+}
+#jeonbuk-tb, #jeonbuk-stadium{
+  height: 400px;          
+}
+#jeonnam-tb, #jeonnam-stadium{
+  height: 400px;          
+}    
+#pohang-tb, #pohang-stadium{
+  height: 400px;          
+}
+#sangju-tb, #sangju-stadium{
+  height: 400px;          
+}
+#seoul-tb, #seoul-stadium{
+  height: 400px;          
+}
+#suwon-tb, #suwon-stadium{
+  height: 400px;          
+}    
+#ulsan-tb, #ulsan-stadium{
+  height: 400px;          
+} 
+    
+.team-banner h1{
+font-size: 40px;
+line-height: 40px;
+}
+
+.CurrentSquad-banner {
+height:400px
+}      
+
+.CurrentSquad-banner h1{
+line-height: 40px;
+font-size: 40px;
+} 
+
+.achievements-banner {
+height:400px
+}     
+
+.achievements-banner h1{
+line-height: 40px;
+font-size: 40px;
+}    
+
+.PlayerStatistics-banner {
+height:400px
+}     
+
+.PlayerStatistics-banner h1{
+line-height: 40px;
+font-size: 40px;
+}       
+     
+/* Subheading */    
+.subheading {
+  width:90%;
+}         
+
+/* Article */    
+.article {
+width:85%;
+padding:5%;  		
+}
+
+@media only screen and (max-width : 768px){ 
+body{
+ margin-bottom: 25px;
+}    
+    
+/* Back to top button */
+#myBtn {
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  z-index: 99;
+  padding: 10px;
+}    
+    
+/* Banners */    
+.FixturesResults-banner h1{
+  font-size: 36px;
+  line-height: 36px;
+} 
+    
+.statistics-banner h1{
+  font-size: 36px;
+  line-height: 36px;
+}  
+    
+.TOTR-banner h1{
+  font-size: 36px;
+  line-height: 36px;
+}
+    
+/* Subheading */    
+.subheading {
+width:95%; 
+}   
+    
+/* Section */
+.section{
+margin:0 auto;
+}
+    
+/* Article */
+.article {
+width:90%;
+padding:5% 2.5%;
+}
+    
+/* Team Pages */    
+.team-banner h1{
+font-size: 36px;
+line-height: 36px;
+}      
+
+.CurrentSquad-banner h1{
+line-height: 36px;
+font-size: 36px;
+}
+
+.achievements-banner {
+background-position: right;
+}     
+
+.achievements-banner h1{
+line-height: 36px;
+font-size: 36px;
+} 
+
+.PlayerStatistics-banner h1{
+line-height: 36px;
+font-size: 36px;
+}    
+}
+
+@media only screen and (max-width : 568px){ 
+
+/* Banners */       
+.index-banner h1{
+  font-size: 32px;
+  line-height: 32px;
+}    
+    
+.FixturesResults-banner h1{
+font-size:32px;
+line-height: 32px;
+}
+
+.statistics-banner h1{
+font-size:32px;
+line-height: 32px;
+}
+
+.TOTR-banner h1{
+font-size:32px;
+line-height: 32px;
+} 
+    
+.awards-banner h1{
+  font-size: 32px;
+  line-height: 32px;
+}    
+    
+/* Team Pages */
+.team-banner h1{
+font-size: 32px;
+line-height: 32px;
+}
+    
+.team-info-helper{
+  width:100%;
+  margin: 0 auto;
+} 
+
+.CurrentSquad-banner h1{
+line-height: 32px;
+font-size: 32px;
+} 
+
+.achievements-banner h1{
+line-height: 32px;
+font-size: 32px;
+}      
+    
+/* Statistics Pages */
+#classic-standings{
+display:none;
+}
+
+#classic-standings-mobile {
+margin:0 auto;
+border-collapse:collapse;
+display:table;
+width:100%;			
+}
+
+#classic-standings-mobile tr{	
+}
+
+#classic-standings-mobile  th {
+text-align:center;
+color:#000;
+padding:10px 0;	
+font-weight:700;
+text-transform:uppercase;	
+}
+
+#classic-standings-mobile td {
+text-align:center;
+padding:10px 0;
+width:40px;	
+}
+
+#classic-standings-mobile tr.odd{
+background:#e3e3e3;	
+}
+
+#classic-standings-mobile  td.position{            
+}
+
+#classic-standings-mobile tr.stats-team-hover:hover td{
+color:#fff;
+background: #4f617b;
+}
+
+#classic-standings-championship {
+display:none;
+}
+
+#classic-standings-championship-mobile {
+margin:0 auto;
+border-collapse:collapse;
+display:table;
+width:100%;		
+}
+
+#classic-standings-championship-mobile  th {
+text-align:center;
+color:#000;
+padding:10px 0;	
+font-weight:700;	
+text-transform:uppercase;	
+}
+
+#classic-standings-championship-mobile td {
+text-align:center;
+padding:10px 0;
+width:40px;	
+}
+
+#classic-standings-championship-mobile tr.odd{
+background:#e3e3e3;	
+}
+
+#classic-standings-championship-mobile  td.position{            
+}
+
+#classic-standings-championship-mobile tr.stats-team-hover:hover td{
+color:#fff;
+background: #23cf5f;
+}
+
+#classic-standings-relegation{
+display:none;
+}
+
+#classic-standings-relegation-mobile {
+margin:0 auto;
+border-collapse:collapse;
+display:table;
+width:100%;		
+}
+
+#classic-standings-relegation-mobile  th {
+text-align:center;
+color:#000;
+padding:10px 0;
+font-weight:700;
+text-transform:uppercase;	
+}
+
+#classic-standings-relegation-mobile td {
+text-align:center;
+padding:10px 0;
+width:40px;
+}
+
+#classic-standings-relegation-mobile tr.odd{
+background:#e3e3e3;	
+}
+
+#classic-standings-relegation-mobile  td.position{            
+}
+
+#classic-standings-relegation-mobile tr.stats-team-hover:hover td{
+color:#fff;
+background: #eb2823;
+}
+
+.PlayerStatistics-banner h1{
+line-height: 32px;
+font-size: 32px;
+}     
+
+#classic-scorers{
+display:none;
+}
+
+#classic-scorers-mobile{
+margin:0 auto;
+border-collapse:collapse;
+display:table;
+width:100%;		
+}
+
+#classic-scorers-mobile  th{
+text-align:center;
+color:#000;
+padding:10px 0;
+font-weight:700;
+text-transform:uppercase;	
+}
+
+#classic-scorers-mobile td {
+padding:10px 0;
+color:#000;		
+}
+
+#classic-scorers-mobile td.position {
+color:#000;	
+text-align:center;
+width:45px;
+}
+
+#classic-scorers-mobile td.points {
+text-align:center;
+}
+
+#classic-scorers-mobile tr.odd{
+background:#e3e3e3;	
+}
+
+#classic-scorers-mobile tr.stats-team-hover:hover td{
+color:#fff;
+background: #4f617b;
+}
+
+#classic-assists
+{
+display:none;
+}
+
+#classic-assists-mobile{
+margin:0 auto;
+border-collapse:collapse;
+display:table;
+width:100%;	
+}
+
+#classic-assists-mobile  th{
+text-align:center;
+color:#000;
+padding:10px 0;
+font-weight:700;	
+text-transform:uppercase;	
+}
+
+#classic-assists-mobile td {
+padding:10px 0;
+color:#000;
+}
+
+#classic-assists-mobile td.position {
+color:#000;	
+text-align:center;
+width:45px;
+}
+
+#classic-assists-mobile td.points {
+text-align:center;
+}
+
+#classic-assists-mobile tr.odd{
+background:#e3e3e3;	
+}
+
+#classic-assists-mobile tr.stats-team-hover:hover td{
+color:#fff;
+background: #4f617b;
+}
+}
+
+@media only screen and (max-width : 480px){ 
+    
+/* Banners */    
+.index-banner h1{
+  font-size: 24px;
+  line-height: 24px;
+}    
+    
+.FixturesResults-banner{
+height: 300px;   
+}
+
+.FixturesResults-banner h1{
+font-size:24px;
+line-height: 24px;
+}     
+
+.statistics-banner{
+height: 300px;   
+}
+
+.statistics-banner h1{
+font-size:24px;
+line-height: 24px;
+}   
+
+.TOTR-banner{
+height: 300px;   
+}      
+
+.TOTR-banner h1{
+font-size:24px;
+line-height: 24px;
+}
+    
+.awards-banner{
+  height: 300px;
+}
+    
+.awards-banner h1{
+  font-size: 24px;
+  line-height: 24px;
+}
+    
+/* Subheading */
+.subheading{
+  text-align: center;
+}   
+    
+.subheading h2{ 
+  font-size:20px;
+}    
+    
+/* Article */
+.article-header h3 {
+text-align: center;
+font-size: 16px;
+}    
+
+.article-header-championship h3 {
+text-align: center;
+font-size: 16px;    
+}  
+
+.article-header-relegation h3 {
+text-align: center;
+font-size: 16px;    
+}     
+    
+.article {
+width:95%;
+}    
+    
+/* Fixtures and Results Pages */    
+td.position {
+width:40px;
+}		
+
+.results-badge{
+display:none;
+}    
+    
+/* Team Pages */    
+#daegu-tb, #daegu-stadium{
+height: 300px;          
+}
+#gangwon-tb, #gangwon-stadium{
+height: 300px;          
+}
+#gyeongnam-tb, #gyeongnam-stadium{
+height: 300px;          
+}
+#incheon-tb, #incheon-stadium{
+height: 300px;          
+}    
+#jeju-tb, #jeju-stadium{
+height: 300px;          
+}
+#jeonbuk-tb, #jeonbuk-stadium{
+height: 300px;          
+}
+#jeonnam-tb, #jeonnam-stadium{
+height: 300px;          
+}    
+#pohang-tb, #pohang-stadium{
+height: 300px;          
+}
+#sangju-tb, #sangju-stadium{
+height: 300px;          
+}
+#seoul-tb, #seoul-stadium{
+height: 300px;          
+}
+#suwon-tb, #suwon-stadium{
+height: 300px;          
+}    
+#ulsan-tb, #ulsan-stadium{
+height: 300px;          
+}   
+
+.team-banner h1{
+font-size: 24px;
+line-height: 24px;
+}
+
+.CurrentSquad-banner {
+height:300px
+}      
+
+.CurrentSquad-banner h1{
+line-height: 24px;
+font-size: 24px;
+} 
+    
+.current-sqaud-subheader h2{
+  font-size: 16px;
+}    
+
+.achievements-banner {
+height:300px
+}     
+
+.achievements-banner h1{
+line-height: 24px;
+font-size: 24px;
+}    
+
+.PlayerStatistics-banner {
+height:300px
+}     
+
+.PlayerStatistics-banner h1{
+line-height: 24px;
+font-size: 24px;
+}    
+ 
+/* TOTR Pages */  
+.grid {
+  padding: 20px 0px 100px 0px;
+}
+     
+.totr{
+text-align:center;	
+} 
+    
+/* Season Awards */
+.best-xi{
+  height: 350px;  
+}    
+}
+
+@media only screen and (max-width : 320px){	   
+.article-header {
+width:100%;
+}
+
+.article-header-championship {
+width:100%;
+}
+
+.article-header-relegation {
+width:100%; 
+}      
+
+.tb-content h1 {
+margin: 0 auto;
+}    
+}
