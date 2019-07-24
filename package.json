@@ -1,0 +1,23 @@
+{
+  "name": "koreanleaguefootball",
+  "version": "1.0.0",
+  "description": "South Korean football website",
+  "main": "index.js",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReaIIyBigShrimp/koreanleaguefootball.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReaIIyBigShrimp/koreanleaguefootball/issues"
+  },
+  "homepage": "https://github.com/ReaIIyBigShrimp/koreanleaguefootball#readme"
+}
